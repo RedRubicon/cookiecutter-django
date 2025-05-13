@@ -89,7 +89,8 @@ norecursedirs = [
   "*/static/*",
   "docs",
   "venv",
-  "*/{{cookiecutter.project_slug}}/*",
+  "*/{{cookiecutter.root_dir}}/*",
+  "*/{{cookiecutter.core_dir}}/*",
 ]
 
 # ==== djLint ====

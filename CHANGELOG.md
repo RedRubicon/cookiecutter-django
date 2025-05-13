@@ -998,7 +998,7 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 - Update pre-commit to 4.0.1 ([#5445](https://github.com/cookiecutter/cookiecutter-django/pull/5445))
 
-- Bump amazon/aws-cli from 2.18.0 to 2.18.1 in /{{cookiecutter.project_slug}}/compose/production/aws ([#5443](https://github.com/cookiecutter/cookiecutter-django/pull/5443))
+- Bump amazon/aws-cli from 2.18.0 to 2.18.1 in /{{cookiecutter.root_dir}}/compose/production/aws ([#5443](https://github.com/cookiecutter/cookiecutter-django/pull/5443))
 
 - Auto-update pre-commit hooks ([#5442](https://github.com/cookiecutter/cookiecutter-django/pull/5442))
 
@@ -1019,7 +1019,7 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 - Update sphinx-rtd-theme to 3.0.0 ([#5437](https://github.com/cookiecutter/cookiecutter-django/pull/5437))
 
-- Bump amazon/aws-cli from 2.17.0 to 2.18.0 in /{{cookiecutter.project_slug}}/compose/production/aws ([#5436](https://github.com/cookiecutter/cookiecutter-django/pull/5436))
+- Bump amazon/aws-cli from 2.17.0 to 2.18.0 in /{{cookiecutter.root_dir}}/compose/production/aws ([#5436](https://github.com/cookiecutter/cookiecutter-django/pull/5436))
 
 ## 2024.10.05
 
@@ -1142,7 +1142,7 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 - Update sphinx-autobuild to 2024.9.19 ([#5386](https://github.com/cookiecutter/cookiecutter-django/pull/5386))
 
-- Bump traefik from 3.1.3 to 3.1.4 in /{{cookiecutter.project_slug}}/compose/production/traefik ([#5389](https://github.com/cookiecutter/cookiecutter-django/pull/5389))
+- Bump traefik from 3.1.3 to 3.1.4 in /{{cookiecutter.root_dir}}/compose/production/traefik ([#5389](https://github.com/cookiecutter/cookiecutter-django/pull/5389))
 
 - Update ruff to 0.6.6 ([#5388](https://github.com/cookiecutter/cookiecutter-django/pull/5388))
 
@@ -1791,13 +1791,13 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 ### Updated
 
-- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/local/docs ([#5129](https://github.com/cookiecutter/cookiecutter-django/pull/5129))
+- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.root_dir}}/compose/local/docs ([#5129](https://github.com/cookiecutter/cookiecutter-django/pull/5129))
 
-- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/local/django ([#5130](https://github.com/cookiecutter/cookiecutter-django/pull/5130))
+- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.root_dir}}/compose/local/django ([#5130](https://github.com/cookiecutter/cookiecutter-django/pull/5130))
 
-- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.project_slug}}/compose/production/django ([#5132](https://github.com/cookiecutter/cookiecutter-django/pull/5132))
+- Bump python from 3.12.3-slim-bookworm to 3.12.4-slim-bookworm in /{{cookiecutter.root_dir}}/compose/production/django ([#5132](https://github.com/cookiecutter/cookiecutter-django/pull/5132))
 
-- Bump amazon/aws-cli from 2.16.6 to 2.16.8 in /{{cookiecutter.project_slug}}/compose/production/aws ([#5138](https://github.com/cookiecutter/cookiecutter-django/pull/5138))
+- Bump amazon/aws-cli from 2.16.6 to 2.16.8 in /{{cookiecutter.root_dir}}/compose/production/aws ([#5138](https://github.com/cookiecutter/cookiecutter-django/pull/5138))
 
 - Update ruff to 0.4.9 ([#5139](https://github.com/cookiecutter/cookiecutter-django/pull/5139))
 
@@ -2664,7 +2664,7 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 ### Updated
 
-- Bump browser-sync from 2.29.3 to 3.0.2 in /{{cookiecutter.project_slug}} ([#4765](https://github.com/cookiecutter/cookiecutter-django/pull/4765))
+- Bump browser-sync from 2.29.3 to 3.0.2 in /{{cookiecutter.root_dir}} ([#4765](https://github.com/cookiecutter/cookiecutter-django/pull/4765))
 
 ## 2024.01.19
 
@@ -2695,7 +2695,7 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 ### Updated
 
-- Bump sass-loader from 13.3.3 to 14.0.0 in /{{cookiecutter.project_slug}} ([#4791](https://github.com/cookiecutter/cookiecutter-django/pull/4791))
+- Bump sass-loader from 13.3.3 to 14.0.0 in /{{cookiecutter.root_dir}} ([#4791](https://github.com/cookiecutter/cookiecutter-django/pull/4791))
 
 ## 2024.01.15
 
@@ -3860,7 +3860,7 @@ All enhancements and patches to Cookiecutter Django will be documented in this f
 
 - Update sentry-sdk to 1.24.0 ([#4349](https://github.com/cookiecutter/cookiecutter-django/pull/4349))
 
-- Bump webpack-bundle-tracker from 1.8.1 to 2.0.0 in /{{cookiecutter.project_slug}} ([#4347](https://github.com/cookiecutter/cookiecutter-django/pull/4347))
+- Bump webpack-bundle-tracker from 1.8.1 to 2.0.0 in /{{cookiecutter.root_dir}} ([#4347](https://github.com/cookiecutter/cookiecutter-django/pull/4347))
 
 - Update django-webpack-loader to 2.0.0 ([#4345](https://github.com/cookiecutter/cookiecutter-django/pull/4345))
 

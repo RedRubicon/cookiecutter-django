@@ -33,7 +33,7 @@ jobs:
         run: pre-commit autoupdate
 
       - name: Autoupdate generated projects
-        working-directory: "{{cookiecutter.project_slug}}"
+        working-directory: "{{cookiecutter.root_dir}}"
         run: pre-commit autoupdate
 
       - name: Create Pull Request

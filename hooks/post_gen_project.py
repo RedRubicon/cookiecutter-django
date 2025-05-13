@@ -34,7 +34,7 @@ def remove_gplv3_files():
 
 
 def remove_custom_user_manager_files():
-    users_path = Path("{{cookiecutter.project_slug}}", "users")
+    users_path = Path("{{cookiecutter.core_dir}}", "users")
     (users_path / "managers.py").unlink()
     (users_path / "tests" / "test_managers.py").unlink()
 
@@ -86,7 +86,7 @@ def remove_heroku_files():
 
 
 def remove_sass_files():
-    shutil.rmtree(Path("{{cookiecutter.project_slug}}", "static", "sass"))
+    shutil.rmtree(Path("{{cookiecutter.core_dir}}", "static", "sass"))
 
 
 def remove_gulp_files():
@@ -101,7 +101,7 @@ def remove_webpack_files():
 
 
 def remove_vendors_js():
-    vendors_js_path = Path("{{ cookiecutter.project_slug }}", "static", "js", "vendors.js")
+    vendors_js_path = Path("{{ cookiecutter.core_dir }}", "static", "js", "vendors.js")
     if vendors_js_path.exists():
         vendors_js_path.unlink()
 
@@ -207,8 +207,8 @@ def remove_prettier_pre_commit():
 def remove_celery_files():
     file_paths = [
         Path("config", "celery_app.py"),
-        Path("{{ cookiecutter.project_slug }}", "users", "tasks.py"),
-        Path("{{ cookiecutter.project_slug }}", "users", "tests", "test_tasks.py"),
+        Path("{{ cookiecutter.core_dir }}", "users", "tasks.py"),
+        Path("{{ cookiecutter.core_dir }}", "users", "tests", "test_tasks.py"),
     ]
     for file_path in file_paths:
         file_path.unlink()
@@ -401,8 +401,8 @@ def remove_aws_dockerfile():
 
 def remove_drf_starter_files():
     Path("config", "api_router.py").unlink()
-    shutil.rmtree(Path("{{cookiecutter.project_slug}}", "users", "api"))
-    shutil.rmtree(Path("{{cookiecutter.project_slug}}", "users", "tests", "api"))
+    shutil.rmtree(Path("{{cookiecutter.core_dir}}", "users", "api"))
+    shutil.rmtree(Path("{{cookiecutter.core_dir}}", "users", "tests", "api"))
 
 
 def main():

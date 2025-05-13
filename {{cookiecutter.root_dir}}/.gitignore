@@ -329,7 +329,7 @@ dump.rdb
 {%- if cookiecutter.use_mailpit == 'y' and cookiecutter.use_docker == 'n' %}
 mailpit
 {%- endif %}
-{{ cookiecutter.project_slug }}/media/
+{{ cookiecutter.root_dir }}/media/
 
 .pytest_cache/
 
@@ -345,6 +345,6 @@ vendors.js
 *.min.js.map
 {%- endif %}
 {%- if cookiecutter.frontend_pipeline == 'Webpack' %}
-{{ cookiecutter.project_slug }}/static/webpack_bundles/
+{{ cookiecutter.root_dir }}/static/webpack_bundles/
 webpack-stats.json
 {%- endif %}
